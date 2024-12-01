@@ -1,3 +1,15 @@
-node_modules
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .vscode-test folder (for VSCode testing files)
 .vscode-test/
+
+# Ignore VSIX files
 *.vsix
+
+# Ignore package-lock.json (if you choose not to include it)
+package-lock.json
+
+# Ignore other potentially unnecessary files
+.DS_Store
+*.log
