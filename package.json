@@ -1,0 +1,42 @@
+{
+  "name": "comment-shredder-js-react-js",
+  "displayName": "Comment Shredder JS/React JS",
+  "description": "Removes comments from JavaScript & React.js code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "comment-shredder-js-react-js.removeComments",
+        "title": "Remove Comments"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "comment-shredder-js-react-js.removeComments",
+        "key": "ctrl+k ctrl+m",
+        "mac": "cmd+k cmd+m",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.95.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "eslint": "^9.13.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
