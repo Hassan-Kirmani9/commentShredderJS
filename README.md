@@ -1,4 +1,4 @@
-# comment-shredder-js-react-js README
+# comment-shredder-js-react-js
 
 Welcome to **comment-shredder-js-react-js**! This extension is designed to help you quickly remove comments from JavaScript, React, and Next.js code. It will clean up both single-line (`//`) and multi-line (`/* */`) comments, making your code ready for production or sharing.
 
